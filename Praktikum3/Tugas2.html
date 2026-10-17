@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Latihan.css">
+</head>
+<body>
+    <button onclick="Sapa()">Sapa</button>
+    <button onclick="showAlert()">Klik Saya</button>
+    <button onclick="greetUser()">Masukkan Nama</button>
+    <button onclick="showMessage()">Tampilkan Pesan</button>
+    <button onclick="changeBackground()">Ubah Warna Latar</button>
+
+    <form name="formPendaftaran" onsubmit="return validateForm()">
+        Nama: <input type="text" name="nama"><br>
+        Email: <input type="email" name="email"><br>
+        <input type="submit" value="Kirim">
+    </form>
+
+    <form id="emailForm">
+        <h2>Form Email</h2>
+        <input type="email" id="email" placeholder="Email">
+        <div id="emailError" style="color:red"></div>
+        <button type="submit">Kirim</button>
+    </form>
+
+    <form name="registrationForm" onsubmit="return validateRegistrationForm()">
+        Email: <input type="text" name="email"><br>
+        Kata Sandi: <input type="password" name="password"><br>
+        <input type="submit" value="Daftar">
+    </form>
+
+    <p id="myParagraph">Ini adalah paragraf asli.</p>
+    <button onclick="changeText()">Ubah Teks</button>
+</body>
+<script src="Tugas2.js"></script>
+</html>

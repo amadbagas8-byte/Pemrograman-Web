@@ -1,0 +1,10 @@
+button {
+    color: white;
+    background-color: rgb(51, 0, 255);
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    white-space: nowrap;
+    vertical-align: top;
+}

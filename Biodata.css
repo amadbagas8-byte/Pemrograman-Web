@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333333;
+}
+
+#header {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#content {
+    display: flex;
+    padding: 30px;
+}
+
+.foto {
+    text-align: center;
+    padding: 20px;
+}
+
+.gambar {
+    max-width: 250px;
+    height: auto;
+}
+
+.data {
+    padding: 20px;
+}
+
+h2 {
+    color: darkblue;
+}
+
+#footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+@media (max-width: 768px) {
+    #content {
+        flex-direction: column;
+    }
+}
