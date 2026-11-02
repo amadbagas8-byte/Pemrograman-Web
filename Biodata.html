@@ -1,56 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio</title>
+    <title>CV - Ahmad Hidayat</title>
     <link rel="stylesheet" type="text/css" href="Biodata.css">
 </head>
 <body>
-    <div id="header">
-        <h1>Biodata Diri</h1>
-    </div>
 
-    <div id="content">
-        <div class="foto">
-            <img class="gambar" src="foto.jpeg" alt="Foto Ahmad Hidayat">
-            <h2>Ahmad Hidayat</h2>
-            <p>Diploma Computer Technology Student</p>
+    <div id="container">
+        
+        <div id="header">
+            <div class="foto">
+                <img class="gambar" src="foto.jpeg" alt="Foto Ahmad Hidayat">
+            </div>
+            <div class="info-utama">
+                <h1>Ahmad Hidayat</h1>
+                <p class="kontak">085774296614 | ahmadhidayat130607@gmail.com | Bekasi, Indonesia</p>
+            </div>
         </div>
 
-        <div class="data">
-            <h2>Data Diri</h2>
-            <table>
-                <tr>
-                    <td>Nama</td>
-                    <td>: Ahmad Hidayat</td>
-                </tr>
-                <tr>
-                    <td>NIM</td>
-                    <td>: 607022500031</td>
-                </tr>
-                <tr>
-                    <td>Tempat, Tanggal Lahir</td>
-                    <td>: Bekasi, 13 Juni 2007</td>
-                </tr>
-                <tr>
-                    <td>Alamat</td>
-                    <td>: Bandung</td>
-                </tr>
-                <tr>
-                    <td>Email</td>
-                    <td>: ahmadh8@gmail.com</td>
-                </tr>
-                <tr>
-                    <td>Hobi</td>
-                    <td>: Berlari</td>
-                </tr>
-            </table>
+        <div id="content">
+            
+            <div class="section">
+                <h2>Tentang Saya</h2>
+                <p>Saya mahasiswa D3 Teknologi Komputer di Telkom University yang tertarik pada dunia teknologi, khususnya hardware. Saya pernah membuat proyek hardware yang melatih kemampuan analitis, ketelitian, dan adaptasi di berbagai kondisi. Saya bekerja secara terstruktur dan berorientasi pada hasil, dengan integritas, kolaborasi, dan disiplin sebagai pegangan.</p>
+            </div>
+
+            <div class="section">
+                <h2>Pendidikan</h2>
+                <p><strong>2025 - Sekarang</strong> | Telkom University | D3 Teknologi Komputer</p>
+                <p><strong>2022 - 2025</strong> | SMAN 1 Cabangbungin | Jurusan IPA</p>
+            </div>
+
+            <div class="section">
+                <h2>Pengalaman Organisasi</h2>
+                <p><strong>2023 - 2024</strong> | Organisasi Intra Sekolah | Anggota</p>
+                <p>Sebagai anggota organisasi, saya berperan aktif dalam setiap kegiatan yang diadakan, membantu pelaksanaan program kerja, serta bekerja sama dengan tim untuk mendukung kelancaran kegiatan organisasi.</p>
+                
+                <p class="posisi-kedua"><strong>2023 - 2024</strong> | Ekstrakurikuler Sepakbola & Futsal | Wakil Ketua</p>
+                <p>Berperan dalam koordinasi kegiatan tim dan penguatan kerja sama antaranggota.</p>
+            </div>
+
+            <div class="section">
+                <h2>Kemampuan</h2>
+                <ul>
+                    <li>Mampu bekerja sama dalam tim dengan baik</li>
+                    <li>Disiplin dan bertanggung jawab terhadap tugas</li>
+                    <li>Cepat beradaptasi dan mudah mempelajari hal baru</li>
+                    <li>Komunikatif serta terbuka terhadap masukan</li>
+                </ul>
+            </div>
+            <div class="form-grup">
+                    <label for="pesan">Pesan</label>
+                    <textarea id="pesan" rows="4" placeholder="Tulis pesan Anda"></textarea>
+                    <span class="error" id="errorPesan"></span>
+                </div>
+
         </div>
+
     </div>
 
-    <div id="footer">
-        <p>&copy; 2026 Ahmad Hidayat</p>
-    </div>
 </body>
 </html>

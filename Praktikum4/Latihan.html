@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Web</title>
+    <link rel="stylesheet" href="Latihan.css">
+</head>
+<body>
+    <header>
+        <h1>Blog Saya</h1>
+        <nav>
+            <a href="#artikel">Artikel</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+    </header>
+    <main>
+        <article id="artikel">
+            <h2>Belajar Pemrograman Web</h2>
+            <p>HTML membuat struktur, CSS mengatur tampilan, dan JavaScript menambah interaksi.</p>
+        </article>
+        <section id="kontak">
+            <h2>Hubungi Saya</h2>
+            <form id="formKontak">
+                <input type="text" id="nama" placeholder="Nama">
+                <span class="error" id="errNama"></span>
+                <input type="email" id="email" placeholder="Email">
+                <span class="error" id="errEmail"></span>
+                <textarea id="pesan" rows="4" placeholder="Pesan"></textarea>
+                <span class="error" id="errPesan"></span>
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Ahmad Hidayat</p>
+    </footer>
+    <script src="Latihan.js"></script>
+</body>
+</html>
