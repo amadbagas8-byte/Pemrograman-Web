@@ -1,0 +1,11 @@
+let angka = 10;
+console.log("Nilai awal angka:", angka);
+
+angka = 25;
+console.log("Nilai angka setelah diubah:", angka);
+
+let pesan = "Selamat pagi";
+console.log("Pesan awal:", pesan);
+
+pesan = "Selamat sore";
+console.log("Pesan setelah diubah:", pesan);
